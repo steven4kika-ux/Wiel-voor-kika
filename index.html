@@ -1,1 +1,44 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Draai het wiel voor KiKa</title>
+  <meta name="description" content="Actiepagina: draai het wiel, steun KiKa!">
+  assets/css/styles.css
+</head>
+<body>
+  <header class="site-header">
+    <h1>Draai het wiel voor KiKa</h1>
+    <p class="tagline">Speel mee en doneer aan kinderkankeronderzoek</p>
+  </header>
 
+  <main>
+    <section class="wheel-section">
+      <canvas id="wheelCanvas" width="500" height="500" aria-label="Prijzenwiel" role="img"></canvas>
+      <div class="controls">
+        <button id="spinBtn" class="btn-primary">Draai het wiel</button>
+        <button id="resetBtn" class="btn-secondary">Reset</button>
+      </div>
+      <div id="result" class="result" aria-live="polite"></div>
+    </section>
+
+    <section class="donate-section">
+      <h2>Steun KiKa</h2>
+      <p>
+        Vond je het leuk? Overweeg een donatie aan KiKa.
+        <a href="https://www.kika.nl/doneren" target="_a>.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small>
+      © <span id="year"></span> “Draai het wiel voor KiKa” (community-actie).
+      Dit is een onafhankelijke actiepagina. KiKa is een geregistreerde stichting.
+    </small>
+  </footer>
+
+  assets/js/app.js</script>
+</body>
+</html>
